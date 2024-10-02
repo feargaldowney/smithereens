@@ -30,6 +30,7 @@
         align-self: center;
     }
 
+
     button {
         background-color: var(--btn-color);
         color:var(--btn-text-color);
