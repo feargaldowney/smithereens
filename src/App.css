@@ -2,7 +2,7 @@
     --background-color: #fff;
     --btn-color: #0987f2;
     --btn-text-color: #fff;
-    --project-card-bg: #ffffff00;
+    --photo-card-bg: #f0f0f0;
     --text-color:#222;
     --form-text-color: #555;
     --footer-text-color: #888;
@@ -12,7 +12,7 @@
   --background-color: #222;
   --btn-color: #fff;
   --btn-text-color: #222;
-  --project-card-bg: #fff;
+  --photo-card-bg: #333;
   --text-color: #fff;
   --form-text-color: #fff;
   --footer-text-color: #bbb;
@@ -78,7 +78,7 @@ p {
         font-size: 20px;
     }
     .sectionTitle {
-        margin-bottom: 60px;
+        margin-bottom: 35px;
     }
 }
 
@@ -87,9 +87,9 @@ p {
         gap: 200px;
     }
     h1 {
-        font-size: 48px;
+        font-size: 70px;
     }
     .sectionTitle {
-        margin-bottom: 75px;
+        margin-bottom: 50px;
     }
 }

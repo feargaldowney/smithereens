@@ -1,60 +1,43 @@
 import styles from "./HeroStyles.module.css";
-import heroImg from "../../assets/hero-img.png";
 import sun from "../../assets/sun.svg";
 import moon from "../../assets/moon.svg";
-import LinkedInLight from "../../assets/linkedin-light.svg";
-import LinkedInDark from "../../assets/linkedin-dark.svg";
-import GithubLight from "../../assets/github-light.svg";
-import GithubDark from "../../assets/github-dark.svg";
-import CV from "../../assets/cv.pdf";
+import instagram from '../../assets/instagram.png';
+import spotify from '../../assets/spotify.png';
+
 import { useTheme } from "../../common/ThemeContext";
 
 function Hero() {
   const {theme, toggleTheme} = useTheme();
 
   const themeIcon = theme === 'light' ? sun : moon;
-  const LinkedInIcon = theme === 'light' ? LinkedInLight : LinkedInDark;
-  const GithubIcon = theme === 'light' ? GithubLight : GithubDark;
-
 
   return <section id="hero" className={styles.container}>
-        <div className={styles.colorModeContainer}>
-          <img 
-            className={styles.hero} 
-            src={heroImg} 
-            alt="profile picture of Feargal Downey"
-          />
-          <img 
-            className ={styles.colorMode}
-            src={themeIcon} 
-            alt="Color mode icon" 
-            onClick={toggleTheme}
-          />
-        </div>
         <div className="{styles.info}">
+          <div className={styles.colorModeContainer}>
+            <img 
+              className ={styles.colorMode}
+              src={themeIcon} 
+              alt="Color mode icon" 
+              onClick={toggleTheme}
+            />
+          </div>
             <h1>
-                Feargal 
-                <br />
-                Downey
+                Smithereens
             </h1>
-            <h2>Full stack Developer</h2>
+            <h2>A classical thing to be blown into.</h2>
             <span>
-                <a href="https://www.linkedin.com/in/feargal-downey/">
-                    <img src={LinkedInIcon} alt="LinkedIn Icon"/>
+                <a href="https://www.instagram.com/pherg__/">
+                    <img src={instagram} alt="Instagram Icon"/>
                 </a>
-                <a href="https://github.com/feargaldowney">
-                    <img src={GithubIcon} alt="Github Icon"/>
+                <a href="https://open.spotify.com/artist/6xC6vekNkKWw5rP5yM9GJ6">
+                    <img src={spotify} alt="spotify Icon"/>
                 </a>
             </span>
             <span>
-            <p className={styles.description}>
-                Recently graduated software developer with keen interest in 
-                full stack development.
-            </p></span>
-            <a href={CV} download>
-                <button className="hover">Resume</button>
-            </a>
-
+              <p className={styles.description}>
+                  5-Piece Jazz/Rock/Funk Fusion band from Cork, Ireland.
+              </p>
+            </span>
         </div>
       </section>
 }

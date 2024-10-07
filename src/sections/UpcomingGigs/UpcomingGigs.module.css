@@ -1,0 +1,66 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Horizontally center */
+  justify-content: center; /* Vertically center */
+  min-height: 100vh; /* Full viewport height */
+  text-align: center;
+}
+
+.gigList {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center; /* Center horizontally */
+  width: 100%;
+  max-width: 900px;
+}
+
+.gigItem {
+  background-color: var(--photo-card-bg); /* Card background */
+  color: var(--card-text-color); /* Text color */
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  transition: transform 0.2s ease, background-color 0.3s ease;
+  width: 100%; /* Ensure the gig item takes up the available space */
+  max-width: 600px; /* Limit the width for a nice appearance */
+}
+
+.gigItem:hover {
+  transform: scale(1.02); 
+}
+
+.gigItem p {
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+
+.ticketButton {
+  margin-top: 15px;
+  padding: 12px 24px;
+  background-color: var(--btn-color); 
+  color: var(--btn-text-color); 
+  text-decoration: none;
+  border-radius: 30px;
+  display: inline-block;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.ticketButton:hover {
+  background-color: #ff7849;
+  transform: translateY(-2px);
+}
+
+@media (min-width: 800px) {
+  .gigList {
+    flex-direction: row;
+    justify-content: center; /* Center even with multiple gigs */
+  }
+
+  .gigItem {
+    width: 280px; /* Fixed width for gig items */
+  }
+}
