@@ -12,7 +12,7 @@ function UpcomingGigs() {
 
   return (
     <section id='upcoming-gigs' className={styles.container}>
-      <h1 className='sectionTitle'>Upcoming Gigs</h1>
+      <h2 className='sectionTitle'>Upcoming Gigs</h2>
       <div className={styles.gigList}>
         {gigs.map((gig, index) => (
           <div key={index} className={styles.gigItem}>

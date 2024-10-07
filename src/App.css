@@ -89,6 +89,9 @@ p {
     h1 {
         font-size: 70px;
     }
+    h2, h3 {
+        font-size: 35px;
+    }
     .sectionTitle {
         margin-bottom: 50px;
     }

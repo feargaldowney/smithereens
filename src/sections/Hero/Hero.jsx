@@ -8,9 +8,7 @@ import { useTheme } from "../../common/ThemeContext";
 
 function Hero() {
   const {theme, toggleTheme} = useTheme();
-
   const themeIcon = theme === 'light' ? sun : moon;
-
   return <section id="hero" className={styles.container}>
         <div className="{styles.info}">
           <div className={styles.colorModeContainer}>
