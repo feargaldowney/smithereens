@@ -1,6 +1,6 @@
 import styles from './GalleryStyles.module.css'
 import PhotoCard from '../../common/PhotoCard';
-import isaac from '../../assets/photos/isaac.jpg';
+import isaac from '../../assets/photos/Isaac.jpg';
 import Noah from '../../assets/photos/Noah.jpg';
 import Sammy from '../../assets/photos/Sammy.jpeg';
 import SamSax from '../../assets/photos/SamSax.jpeg';
