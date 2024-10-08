@@ -11,15 +11,15 @@
 body {
     background-color: var(--background-color);
     background-image: url('/src/assets/smithereensBackground.avif');
-    background-size: cover;
+    background-size: cover; /* Cover for desktop */
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     display: flex;
     justify-content: center;
     margin: 0 auto 60px;
-    color: var(--text-color); /* Ensures text color adapts to dark background */
-    min-height: 100vh; /* Ensure body has enough height */
+    color: var(--text-color);
+    min-height: 100vh; /* Ensures minimum height */
 }
 
 #root {
@@ -62,29 +62,11 @@ p {
 }
 
 /* Media Queries */
-@media (max-width: 400px) { /* Target small screens */
+@media (max-width: 400px) { /* Mobile styles */
     body {
-        background-image: url('/src/assets/smithereensBackgroundSmall.png'); 
-        background-size: cover; /* Ensure the image covers the screen */
-        min-height: 100vh; /* Ensure the body has enough height */
-    }
-    #root {
-        gap: 50px; /* Adjust gap for smaller screens */
-    }
-    h1 {
-        font-size: 30px; /* Adjust font sizes for smaller screens */
-    }
-    h2 {
-        font-size: 18px;
-    }
-    h3 {
-        font-size: 16px;
-    }
-    p {
-        font-size: 14px;
-    }
-    .sectionTitle {
-        margin-bottom: 20px;
+        background-size: contain; /* Change to contain for mobile */
+        background-attachment: scroll; /* Disable fixed attachment for better performance on mobile */
+        min-height: 150vh; /* Ensure enough height for mobile */
     }
 }
 
