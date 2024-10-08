@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .iframe {
+    width: 100%;
+    max-width: 600px; /* Limits the width on larger screens */
+    height: 352px; /* Aspect ratio similar to Spotify embed */
+    border: none;
+    border-radius: 12px;
+  }
+  
+  @media (max-width: 768px) {
+    .iframe {
+      height: 360px; /* Slightly smaller height for mobile */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .iframe {
+      height: 300px; /* Smaller screens */
+    }
+  }
+  

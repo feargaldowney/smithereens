@@ -22,7 +22,7 @@ function Hero() {
             <h1>
                 Smithereens
             </h1>
-            <h2>A classical thing to be blown into.</h2>
+            <h3>A classic thing to be blown into.</h3>
             <span>
                 <a href="https://www.instagram.com/pherg__/">
                     <img src={instagram} alt="Instagram Icon"/>

@@ -38,7 +38,7 @@ h2, h3, p {
     font-family: 'Roboto Mono', monospace;
 }
 
-h1, h2 {
+h1, h2, h3 {
     text-transform: uppercase;
 }
 
@@ -63,17 +63,43 @@ p {
 .hover {
     cursor: pointer;
 }
-
-@media (width >= 800px) {
+@media (width >= 400px) {
     #root {
         gap: 100px;
     }
     h1 {
         font-size: 40px;
     }
-    h2, h3 {
-        font-size: 24px;
+    h2{
+        font-size: 20px;
     }
+
+    h3 {
+        font-size: 18px;
+    }
+    p {
+        font-size: 20px;
+    }
+    .sectionTitle {
+        margin-bottom: 35px;
+    }
+}
+
+@media (width >= 800px) {
+    #root {
+        gap: 100px;
+    }
+    h1 {
+        font-size: 50px;
+    }
+    h2 {
+        font-size: 28px;
+    }
+
+    h3 {
+        font-size: 21px;
+    }
+
     p {
         font-size: 20px;
     }
@@ -89,8 +115,12 @@ p {
     h1 {
         font-size: 70px;
     }
-    h2, h3 {
-        font-size: 35px;
+    h2 {
+        font-size: 40px;
+    }
+
+    h3 {
+        font-size: 30px;
     }
     .sectionTitle {
         margin-bottom: 50px;

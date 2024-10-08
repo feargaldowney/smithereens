@@ -4,6 +4,7 @@ import Contact from './sections/Contact/Contact';
 import Footer from './sections/Footer/Footer';
 import Gallery from './sections/Gallery/Gallery';
 import UpcomingGigs from './sections/UpcomingGigs/UpcomingGigs';
+import Spotify from './sections/Spotify/Spotify';
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
     <>
     <Hero />
     <UpcomingGigs />
+    <Spotify />
     <Gallery />
     <Contact />
     <Footer />

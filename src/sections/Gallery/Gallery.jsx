@@ -9,7 +9,7 @@ import Paidi from '../../assets/photos/Paidi.jpg';
 function Gallery() {
   return (
     <section id='gallery' className={styles.container}>
-        <h1 className="sectionTitle">Gallery</h1>
+        <h2 className="sectionTitle">Gallery</h2>
         <div className={styles.GalleryContainer}>
             { <PhotoCard 
             src={SamSax}
