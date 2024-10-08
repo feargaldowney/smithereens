@@ -64,8 +64,7 @@ p {
 /* Media Queries */
 @media (max-width: 400px) { /* Mobile styles */
     body {
-        background-image: url('/src/assets/smithereensSmallBackground.png');
-        background-size: cover; 
+        background-size: 300%; 
         background-attachment: scroll; /* Disable fixed attachment for better performance on mobile */
     }
 }
