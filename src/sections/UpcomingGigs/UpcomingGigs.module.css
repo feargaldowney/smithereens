@@ -15,7 +15,7 @@
 }
 
 .gigItem {
-  background-color: var(--photo-card-bg); /* Card background */
+  background-color: var(--photo-card-bg); 
   color: var(--card-text-color); /* Text color */
   padding: 20px;
   border-radius: 20px;
