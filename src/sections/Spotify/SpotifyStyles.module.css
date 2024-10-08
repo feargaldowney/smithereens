@@ -23,7 +23,7 @@
   
   @media (max-width: 480px) {
     .iframe {
-      height: 450px; /* Smaller screens */
+      height: 400px; /* Smaller screens */
       width: 300px;
     }
   }
