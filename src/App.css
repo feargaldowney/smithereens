@@ -82,7 +82,7 @@ p {
         margin-bottom: 35px;
     }
     body {
-    background-image: url('/src/assets/smithereensSmallBackground.jpg');
+    background-image: url('/src/assets/smithereensSmall.png');
     }
 }
 
@@ -106,7 +106,7 @@ p {
         margin-bottom: 35px;
     }
     body {
-        background-image: url('/src/assets/smithereensSmallBackground.jpg');
+        background-image: url('/src/assets/smithereensSmall.png');
     }
 }
 
