@@ -9,21 +9,22 @@
   
   .iframe {
     width: 100%;
-    max-width: 600px;
-    height: 352px; /* Desktop and tablet height */
+    max-width: 600px; /* Limits the width on larger screens */
+    height: 352px; /* Aspect ratio similar to Spotify embed */
     border: none;
     border-radius: 12px;
   }
   
   @media (max-width: 768px) {
     .iframe {
-      height: 500px; /* Increased height to allow a vertical layout */
+      height: 360px; /* Slightly smaller height for mobile */
     }
   }
   
   @media (max-width: 480px) {
     .iframe {
-      height: 600px; /* Further increase height for smaller screens */
+      height: 450px; /* Smaller screens */
+      width: 300px;
     }
   }
   
