@@ -11,7 +11,7 @@
 body {
     background-color: var(--background-color);
     background-image: url('/src/assets/smithereensBackground.avif');
-    background-size:200dvh; /* Cover for desktop */
+    background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -19,7 +19,7 @@ body {
     justify-content: center;
     margin: 0 auto 60px;
     color: var(--text-color);
-    min-height: 100vh; /* Ensures minimum height */
+    min-height: 200vh; /* Ensures minimum height */
 }
 
 #root {
@@ -70,7 +70,7 @@ p {
     }
 }
 
-@media (min-width: 400px) {
+@media (width <= 400px) {
     #root {
         gap: 100px;
     }
@@ -89,9 +89,15 @@ p {
     .sectionTitle {
         margin-bottom: 35px;
     }
+
+    body {
+        background-size: 300%;
+        background-position: scroll;
+    }
+
 }
 
-@media (min-width: 800px) {
+@media (width <= 800px) {
     #root {
         gap: 100px;
     }
@@ -109,6 +115,10 @@ p {
     }
     .sectionTitle {
         margin-bottom: 35px;
+    }
+    body {
+        background-size: 300%;
+        background-position: scroll;
     }
 }
 
