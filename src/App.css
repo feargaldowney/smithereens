@@ -90,8 +90,8 @@ p {
     }
 
     body {
-        background-size: 500%;
-        background-position: scroll;
+        background-size: 800%;
+        background-position: fixed;
     }
 
 }
@@ -116,8 +116,8 @@ p {
         margin-bottom: 35px;
     }
     body {
-        background-size: 300%;
-        background-position: scroll;
+        background-size: 800%;
+        background-position: fixed;
     }
 }
 
