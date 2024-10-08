@@ -82,7 +82,7 @@ p {
         margin-bottom: 35px;
     }
     body {
-    background-image: url('/src/assets/mobileBackground.webp');
+    background-image: url('/src/assets/smithereensSmallBackground.png');
     }
 }
 
@@ -106,7 +106,7 @@ p {
         margin-bottom: 35px;
     }
     body {
-        background-image: url('/src/assets/mobileBackground.webp');
+        background-image: url('/src/assets/smithereensSmallBackground.png');
     }
 }
 
