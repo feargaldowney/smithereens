@@ -61,13 +61,6 @@ p {
     cursor: pointer;
 }
 
-/* Media Queries */
-@media (max-width: 400px) { /* Mobile styles */
-    body {
-        background-size: 500%; 
-        background-attachment: scroll; /* Disable fixed attachment for better performance on mobile */
-    }
-}
 
 @media (width <= 400px) {
     #root {
@@ -88,12 +81,9 @@ p {
     .sectionTitle {
         margin-bottom: 35px;
     }
-
     body {
-        background-size: 800%;
-        background-position: fixed;
+    background-image: url('/src/assets/mobileBackground.webp');
     }
-
 }
 
 @media (width <= 800px) {
@@ -116,8 +106,7 @@ p {
         margin-bottom: 35px;
     }
     body {
-        background-size: 800%;
-        background-position: fixed;
+        background-image: url('/src/assets/mobileBackground.webp');
     }
 }
 
