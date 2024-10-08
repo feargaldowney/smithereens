@@ -61,46 +61,21 @@ p {
     cursor: pointer;
 }
 
-
-@media (width <= 400px) {
-    #root {
-        gap: 100px;
-    }
-    h1 {
-        font-size: 40px;
-    }
-    h2 {
-        font-size: 20px;
-    }
-    h3 {
-        font-size: 18px;
-    }
-    p {
-        font-size: 20px;
-    }
-    .sectionTitle {
-        margin-bottom: 35px;
-    }
-    body {
-    background-image: url('/src/assets/smithereensSmall.png');
-    }
-}
-
 @media (width <= 800px) {
     #root {
         gap: 100px;
     }
     h1 {
-        font-size: 50px;
+        font-size: 45px;
     }
     h2 {
-        font-size: 28px;
+        font-size: 25px;
     }
     h3 {
-        font-size: 21px;
+        font-size: 20px;
     }
     p {
-        font-size: 22px;
+        font-size: 19px;
     }
     .sectionTitle {
         margin-bottom: 35px;
