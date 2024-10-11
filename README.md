@@ -1,5 +1,4 @@
-# React + Vite
-Web App created for a client with React + Vite.
+# Web App created for a client with React + Vite.
 
 Visit the finished site at: (https://smithereens.netlify.app/)
 
