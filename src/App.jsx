@@ -8,7 +8,6 @@ import Spotify from './sections/Spotify/Spotify';
 import YouTube from './sections/Youtube/YouTube';
 
 function App() {
-
   return (
     <>
     <Hero />
